@@ -18,7 +18,7 @@
             "act" => $act
         );
         $_SESSION['datos'][$carrera] = $datos;
-        print_r($_SESSION['datos']);
+        // print_r($_SESSION['datos']);
     }
 
     else if(isset($_POST['eliminar'])){
